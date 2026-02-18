@@ -1,0 +1,17 @@
+C:\Starbucks\src\Starbucks.Persistence\bin\Debug\net9.0\Starbucks.Persistence.deps.json
+C:\Starbucks\src\Starbucks.Persistence\bin\Debug\net9.0\Starbucks.Persistence.dll
+C:\Starbucks\src\Starbucks.Persistence\bin\Debug\net9.0\Starbucks.Persistence.pdb
+C:\Starbucks\src\Starbucks.Persistence\bin\Debug\net9.0\Starbucks.Domain.dll
+C:\Starbucks\src\Starbucks.Persistence\bin\Debug\net9.0\Starbucks.Domain.pdb
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.csproj.AssemblyReference.cache
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.AssemblyInfoInputs.cache
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.AssemblyInfo.cs
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.csproj.CoreCompileInputs.cache
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbuck.5D841616.Up2Date
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.dll
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\refint\Starbucks.Persistence.dll
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.pdb
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\ref\Starbucks.Persistence.dll
+C:\Starbucks\src\Starbucks.Persistence\bin\Debug\net9.0\Starbucks.Persistence.runtimeconfig.json
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.genruntimeconfig.cache
