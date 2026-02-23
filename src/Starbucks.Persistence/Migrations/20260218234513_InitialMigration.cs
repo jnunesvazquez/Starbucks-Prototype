@@ -48,7 +48,7 @@ namespace Starbucks.Persistence.Migrations
                     Description = table.Column<string>(type: "TEXT", nullable: true),
                     Price = table.Column<decimal>(type: "TEXT", precision: 10, scale: 2, nullable: false),
                     CategoryId = table.Column<int>(type: "INTEGER", nullable: false),
-                    Image = table.Column<string>(type: "TEXT", nullable: true)
+                    Imagen = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {

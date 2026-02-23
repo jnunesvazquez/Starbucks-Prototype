@@ -15,3 +15,4 @@ C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.pd
 C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\ref\Starbucks.Persistence.dll
 C:\Starbucks\src\Starbucks.Persistence\bin\Debug\net9.0\Starbucks.Persistence.runtimeconfig.json
 C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.genruntimeconfig.cache
+C:\Starbucks\src\Starbucks.Persistence\obj\Debug\net9.0\Starbucks.Persistence.sourcelink.json

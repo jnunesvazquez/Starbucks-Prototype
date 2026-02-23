@@ -15,3 +15,4 @@ C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.dl
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\refint\Starbucks.Application.dll
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.pdb
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\ref\Starbucks.Application.dll
+C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.sourcelink.json

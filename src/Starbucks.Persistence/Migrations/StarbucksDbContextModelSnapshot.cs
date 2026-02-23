@@ -59,7 +59,7 @@ namespace Starbucks.Persistence.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Image")
+                    b.Property<string>("Imagen")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")

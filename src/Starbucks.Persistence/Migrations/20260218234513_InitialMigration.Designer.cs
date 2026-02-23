@@ -11,7 +11,7 @@ using Starbucks.Persistence;
 namespace Starbucks.Persistence.Migrations
 {
     [DbContext(typeof(StarbucksDbContext))]
-    [Migration("20260215183234_InitialMigration")]
+    [Migration("20260218234513_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -62,7 +62,7 @@ namespace Starbucks.Persistence.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Image")
+                    b.Property<string>("Imagen")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")

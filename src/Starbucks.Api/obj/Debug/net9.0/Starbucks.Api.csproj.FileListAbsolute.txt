@@ -1,5 +1,4 @@
 C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\appsettings.Development.json
-C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\appsettings.json
 C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\Starbucks.Api.staticwebassets.endpoints.json
 C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\Starbucks.Api.exe
 C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\Starbucks.Api.deps.json
@@ -163,3 +162,6 @@ C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite
 C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\Resources\coffe.json
+C:\Starbucks\src\Starbucks.Api\obj\Debug\net9.0\Starbucks.Api.sourcelink.json
+C:\Starbucks\src\Starbucks.Api\bin\Debug\net9.0\appsettings.json
