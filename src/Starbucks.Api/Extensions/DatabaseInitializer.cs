@@ -1,3 +1,4 @@
+using System.Net;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Starbucks.Api.Resources;
@@ -8,9 +9,10 @@ namespace Starbucks.Api.Extensions;
 
 public static class DatabaseInitializer
 {
+
     public static async Task ApplyMigration(
         this IApplicationBuilder builder,
-        IWebHostEnvironment? enviroment
+        IWebHostEnvironment? environment
     )
     {
         using (var scope = builder.ApplicationServices.CreateScope())
@@ -19,56 +21,73 @@ public static class DatabaseInitializer
             var loggerFactory = service.GetRequiredService<ILoggerFactory>();
             try
             {
-                var context = service.GetRequiredService<StarbucksDbContext>();
-                await context.Database.MigrateAsync();
-                await SeedData(context, enviroment);
+               var context = service.GetRequiredService<StarbucksDbContext>();
+               await context.Database.MigrateAsync();
+               await SeedData(context, environment);
             }
-            catch (Exception e)
+            catch(Exception ex)
             {
                 var logger = loggerFactory.CreateLogger<Program>();
-                logger.LogError(e, "Error en la migración");
+                logger.LogError(ex, "Error en la migracion");
             }
+
         }
+
+
     }
 
+
     private static async Task SeedData(
-        StarbucksDbContext context,
-        IWebHostEnvironment? environment)
+        StarbucksDbContext context, 
+        IWebHostEnvironment? environment
+    )
     {
-        if (context.Coffes.Any())
+        if(context.Coffes.Any())
         {
             return;
-        } else if (environment is null)
+        }
+        
+        if(environment is null)
         {
             throw new Exception("El environment no se cargo");
         }
 
-        var rootPath = environment.ContentRootPath;
-        var fullPathCoffe = Path.Combine(rootPath, "Resources/coffe.json");
-        var coffeDataText = await File.ReadAllTextAsync(fullPathCoffe);
-        var data = JsonConvert.DeserializeObject<List<CoffeJson>>(coffeDataText) ?? Enumerable.Empty<CoffeJson>();
-
-        var ingredientsMaster = new List<Ingredient>();
+        var rootPath =  environment.ContentRootPath;
+        var fullPathCoffe =  Path.Combine(rootPath, "Resources/coffe.json");
+        var coffeDataText =  await File.ReadAllTextAsync(fullPathCoffe);
+        var data =  JsonConvert.DeserializeObject<List<CoffeJson>>(coffeDataText) 
+                        ?? Enumerable.Empty<CoffeJson>();
+        
+        var ingredientMaster = new List<Ingredient>();
         var coffeMaster = new List<Coffe>();
         var random = new Random();
-
         foreach(var coffeJson in data)
         {
             var ingredientsLocal = new List<Ingredient>();
 
             foreach(var ingr in coffeJson.Ingredients)
             {
-                var ingredient = ingredientsMaster.Where(s => string.Equals(s.Name, ingr, StringComparison.CurrentCultureIgnoreCase)).FirstOrDefault();
-
-                if (ingredient is null)
+                var ingredient = ingredientMaster
+                                    .Where(
+                                        s => 
+                                        string.Equals(
+                                            s.Name, 
+                                            ingr, 
+                                            StringComparison.CurrentCultureIgnoreCase
+                                        )
+                                    )
+                                    .FirstOrDefault();
+                
+                if(ingredient is null)
                 {
                     ingredient = new Ingredient
                     {
                         Id = Guid.NewGuid(),
                         Name = ingr
                     };
-                    ingredientsMaster.Add(ingredient);
+                    ingredientMaster.Add(ingredient);
                 }
+
                 ingredientsLocal.Add(ingredient);
             }
 
@@ -85,13 +104,17 @@ public static class DatabaseInitializer
             coffeMaster.Add(coffe);
         }
 
-        await context.Ingredients.AddRangeAsync(ingredientsMaster);
+        await context.Ingredients.AddRangeAsync(ingredientMaster);
         await context.Coffes.AddRangeAsync(coffeMaster);
+
         await context.SaveChangesAsync();
     }
 
     private static decimal RandomPrice(Random random, double min, double max)
     {
-        return Convert.ToDecimal(Math.Round(random.NextDouble() * Math.Abs(max-min) + min, 2));
+       return Convert
+       .ToDecimal(Math.Round(random.NextDouble() * Math.Abs(max-min) + min , 2));
     }
+
+
 }

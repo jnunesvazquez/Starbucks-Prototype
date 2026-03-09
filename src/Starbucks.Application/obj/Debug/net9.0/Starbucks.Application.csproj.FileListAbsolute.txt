@@ -1,8 +1,12 @@
 C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Starbucks.Application.deps.json
 C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Starbucks.Application.dll
 C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Starbucks.Application.pdb
+C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Core.Mappy.dll
+C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Core.MediatOR.dll
 C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Starbucks.Domain.dll
 C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Starbucks.Persistence.dll
+C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Core.Mappy.pdb
+C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Core.MediatOR.pdb
 C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Starbucks.Persistence.pdb
 C:\Starbucks\src\Starbucks.Application\bin\Debug\net9.0\Starbucks.Domain.pdb
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.csproj.AssemblyReference.cache
@@ -10,9 +14,9 @@ C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.Ge
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.AssemblyInfoInputs.cache
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.AssemblyInfo.cs
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.csproj.CoreCompileInputs.cache
+C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.sourcelink.json
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbuck.2EE07E2E.Up2Date
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.dll
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\refint\Starbucks.Application.dll
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.pdb
 C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\ref\Starbucks.Application.dll
-C:\Starbucks\src\Starbucks.Application\obj\Debug\net9.0\Starbucks.Application.sourcelink.json

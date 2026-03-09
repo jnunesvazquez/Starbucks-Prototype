@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\core\Core.Mappy\Core.Mappy.csproj" />
+    <ProjectReference Include="..\..\core\Core.MediatOR\Core.MediatOR.csproj" />
     <ProjectReference Include="..\Starbucks.Persistence\Starbucks.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
   </ItemGroup>
 
 </Project>

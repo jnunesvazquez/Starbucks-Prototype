@@ -5,8 +5,8 @@ C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\Starbucks.Domain.GeneratedMSB
 C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\Starbucks.Domain.AssemblyInfoInputs.cache
 C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\Starbucks.Domain.AssemblyInfo.cs
 C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\Starbucks.Domain.csproj.CoreCompileInputs.cache
+C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\Starbucks.Domain.sourcelink.json
 C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\Starbucks.Domain.dll
 C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\refint\Starbucks.Domain.dll
 C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\Starbucks.Domain.pdb
 C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\ref\Starbucks.Domain.dll
-C:\Starbucks\src\Starbucks.Domain\obj\Debug\net9.0\Starbucks.Domain.sourcelink.json

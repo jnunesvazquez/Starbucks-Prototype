@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Starbucks\\core\\Core.mediatOR\\Core.mediatOR.csproj": {}
+    "C:\\Starbucks\\core\\Core.MediatOR\\Core.MediatOR.csproj": {}
   },
   "projects": {
-    "C:\\Starbucks\\core\\Core.mediatOR\\Core.mediatOR.csproj": {
+    "C:\\Starbucks\\core\\Core.MediatOR\\Core.MediatOR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Starbucks\\core\\Core.mediatOR\\Core.mediatOR.csproj",
-        "projectName": "Core.mediatOR",
-        "projectPath": "C:\\Starbucks\\core\\Core.mediatOR\\Core.mediatOR.csproj",
+        "projectUniqueName": "C:\\Starbucks\\core\\Core.MediatOR\\Core.MediatOR.csproj",
+        "projectName": "Core.MediatOR",
+        "projectPath": "C:\\Starbucks\\core\\Core.MediatOR\\Core.MediatOR.csproj",
         "packagesPath": "C:\\Users\\joel.nunes\\.nuget\\packages\\",
-        "outputPath": "C:\\Starbucks\\core\\Core.mediatOR\\obj\\",
+        "outputPath": "C:\\Starbucks\\core\\Core.MediatOR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,13 +43,23 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

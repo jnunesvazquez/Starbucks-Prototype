@@ -1,8 +1,6 @@
-using System;
-
 namespace Core.mediatOR.Contracts;
 
-public interface IRequest
+public interface IRequest<TResponse>
 {
 
 }
